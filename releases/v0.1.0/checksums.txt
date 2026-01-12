@@ -1,5 +1,5 @@
-366f60bec3cf62d8f9720aaaa8bf54f897390cbd5f9a157a14312819b83d1956  kayakd-v0.1.0-darwin-amd64.tar.gz
-140d68e41037d5da337e04df1a93e7afae2438e8d780d81dbd178bf24d0c5b47  kayakd-v0.1.0-darwin-arm64.tar.gz
-e6824ba00002e2ca4c4127564773097bfe10269375dba73250714d6c5f03e0b7  kayakd-v0.1.0-linux-amd64.tar.gz
-f625fb0295cfc7f04e04011aecf2dd512d6835eef0cfc2ab1e4c0faf6153573f  kayakd-v0.1.0-linux-arm64.tar.gz
-62f5f79656d98f7e7bdcda2e6faea68a1eafa144aed089b7d550dac92ea21593  kayakd-v0.1.0-windows-amd64.zip
+e242b972321c024c98db5efb9fac8407e35c3e2943f13e48472ff1f4c53bddb6  kayakd-v0.1.0-darwin-amd64.tar.gz
+4c2d34b017f2e7322bc0061c9aaf3a2996f4bad68b9b4fdc65862479335d3e4d  kayakd-v0.1.0-darwin-arm64.tar.gz
+7c2a54ab6b6a7b21a4fe91189556e367babc06acdb40f646feed0b58f83493b7  kayakd-v0.1.0-linux-amd64.tar.gz
+10a7153c4f369549c50aae89642dd5529ec13aaf9e4314e9f7fe3ddcc3780fa3  kayakd-v0.1.0-linux-arm64.tar.gz
+01babe9a985bc7e76000468e4b42c50c0d64f2b7158c25758ea8bb20078f91f1  kayakd-v0.1.0-windows-amd64.zip
