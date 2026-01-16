@@ -4,6 +4,8 @@ Official releases for KayakNet - a privacy-first anonymous P2P network.
 
 ## Latest Release: v0.1.0
 
+### Desktop
+
 | Platform | Architecture | Download |
 |----------|--------------|----------|
 | Linux | x86_64 (amd64) | [kayakd-v0.1.0-linux-amd64.tar.gz](https://github.com/KayakNet/downloads/releases/download/v0.1.0/kayakd-v0.1.0-linux-amd64.tar.gz) |
@@ -11,6 +13,12 @@ Official releases for KayakNet - a privacy-first anonymous P2P network.
 | macOS | x86_64 (Intel) | [kayakd-v0.1.0-darwin-amd64.tar.gz](https://github.com/KayakNet/downloads/releases/download/v0.1.0/kayakd-v0.1.0-darwin-amd64.tar.gz) |
 | macOS | ARM64 (Apple Silicon) | [kayakd-v0.1.0-darwin-arm64.tar.gz](https://github.com/KayakNet/downloads/releases/download/v0.1.0/kayakd-v0.1.0-darwin-arm64.tar.gz) |
 | Windows | x86_64 | [kayakd-v0.1.0-windows-amd64.zip](https://github.com/KayakNet/downloads/releases/download/v0.1.0/kayakd-v0.1.0-windows-amd64.zip) |
+
+### Mobile
+
+| Platform | Download |
+|----------|----------|
+| Android | [kayaknet-latest.apk](https://github.com/KayakNet/downloads/raw/main/releases/android/kayaknet-latest.apk) |
 
 ## Quick Start
 
@@ -33,6 +41,13 @@ tar -xzf kayakd-v0.1.0-linux-amd64.tar.gz
 2. Extract to a folder
 3. Open Command Prompt in that folder
 4. Run: `kayakd.exe --bootstrap 203.161.33.237:4242 --proxy --name my-node -i`
+
+### Android
+
+1. Download the APK file
+2. Enable "Install from unknown sources" in Settings
+3. Open the APK to install
+4. Launch KayakNet app
 
 ## After Starting
 
@@ -58,7 +73,7 @@ SHA256 checksums in checksums.txt included with each release
 
 ## System Requirements
 
-- **OS**: Linux, macOS, or Windows
+- **OS**: Linux, macOS, Windows, or Android
 - **RAM**: 512MB minimum
 - **Network**: Any internet connection
 - **Ports**: UDP 4242 (outbound)
@@ -70,5 +85,3 @@ For issues and questions, visit the KayakNet community.
 ---
 
 KayakNet - Privacy First
-
-
