@@ -41,6 +41,13 @@ cd C:\KayakNet
 |------|----------|
 | Executable | [kayaknet.exe](https://github.com/KayakNet/downloads/raw/main/releases/windows/kayaknet.exe) |
 
+### macOS
+
+| Architecture | Download |
+|--------------|----------|
+| Intel (amd64) | [kayakd-amd64](https://github.com/KayakNet/downloads/raw/main/releases/macos/kayakd-amd64) |
+| Apple Silicon (arm64) | [kayakd-arm64](https://github.com/KayakNet/downloads/raw/main/releases/macos/kayakd-arm64) |
+
 ### Android
 
 | File | Download |
@@ -88,6 +95,24 @@ cd C:\KayakNet
 
 Then open browser to: `http://127.0.0.1:8080`
 
+### macOS
+
+**Intel Mac:**
+```bash
+curl -Lo kayakd https://github.com/KayakNet/downloads/raw/main/releases/macos/kayakd-amd64
+chmod +x kayakd
+./kayakd -proxy -bootstrap 203.161.33.237:8080
+```
+
+**Apple Silicon (M1/M2/M3):**
+```bash
+curl -Lo kayakd https://github.com/KayakNet/downloads/raw/main/releases/macos/kayakd-arm64
+chmod +x kayakd
+./kayakd -proxy -bootstrap 203.161.33.237:8080
+```
+
+Then open browser to: `http://127.0.0.1:8080`
+
 ### Android
 
 1. Download [kayaknet-latest.apk](https://github.com/KayakNet/downloads/raw/main/releases/android/kayaknet-latest.apk)
@@ -112,7 +137,8 @@ Then open browser to: `http://127.0.0.1:8080`
 |---------|-----|
 | Web UI | http://127.0.0.1:8080 |
 | Chat | http://127.0.0.1:8080/chat |
-| Marketplace | http://127.0.0.1:8080/market |
+| Kayaker | http://127.0.0.1:8080/kayaker |
+| Marketplace | http://127.0.0.1:8080/marketplace |
 | Domains | http://127.0.0.1:8080/domains |
 | HTTP Proxy | 127.0.0.1:8888 |
 
@@ -124,6 +150,7 @@ To access `.kyk` domains, configure your browser to use the proxy at `127.0.0.1:
 
 - Anonymous P2P network with 3-hop onion routing
 - End-to-end encrypted messaging
+- **Kayaker** - Encrypted Twitter-like microblogging
 - Marketplace with Monero/Zcash escrow
 - .kyk domain registration
 - Traffic analysis resistance
